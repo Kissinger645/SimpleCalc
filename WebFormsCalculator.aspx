@@ -14,7 +14,7 @@
     <form id="form1" runat="server">
         <div>
             First Number:<br />
-            <input type="number" name="First Number" value="" />
+            <input type="number" name="First Number" value="<%=Answer %>" />
             <br />
         </div>
 
