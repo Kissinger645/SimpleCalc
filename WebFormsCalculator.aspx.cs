@@ -19,6 +19,7 @@ public partial class _Default : System.Web.UI.Page
         {
             First = float.Parse(Request.Form["First Number"]);
             Second = float.Parse(Request.Form["Second Number"]);
+            Choice = Request.Form["Choice"];
             Calculate(First, Second);
         }
     }
